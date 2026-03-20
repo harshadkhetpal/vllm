@@ -1,3 +1,18 @@
+## 🧑‍💻 My Fork — Harshad Khetpal (DevOps / MLOps Engineer)
+
+I use this fork of vLLM for **high-throughput LLM inference on Kubernetes** with GPU autoscaling. This is part of my MLOps infrastructure stack for serving fine-tuned models at production scale.
+
+### My Setup
+- Helm chart deployment on GKE with NVIDIA A100 node pools
+- Custom HPA based on GPU utilization + queue depth metrics
+- Integrated with MLflow model registry for version-controlled deployments
+- Load balanced via Istio service mesh with canary rollout support
+
+### Why I forked this
+Exploring tensor parallelism configurations and custom batching strategies for different model sizes. Also experimenting with speculative decoding for latency reduction.
+
+---
+
 <!-- markdownlint-disable MD001 MD041 -->
 <p align="center">
   <picture>
